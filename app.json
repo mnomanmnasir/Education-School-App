@@ -1,0 +1,37 @@
+{
+    "expo": {
+      "name": "forbelapp",
+      "slug": "forbelapp",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.jpg",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.nomanasir20.forbelapp"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "f22abbec-f71b-481b-bbbb-b12e6022c0c9"
+        }
+      }
+    }
+  }
+  
